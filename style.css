@@ -39,6 +39,9 @@ header {
 	font-weight: bold;
 }
 .text button {
+	border: 5px solid #CFD0A4;
+	margin-top:75px; 
+	padding:0 40px 0 0;
 	width: 310px;
 	height: 60px;
 	border-radius: 30px;
@@ -46,19 +49,17 @@ header {
 	color: white;
 	font-weight: bold;
 	font-size: 25px;
-	padding:0 40px 0 0;
-	border: 5px solid #CFD0A4;
-	margin-top:75px; 
+	
 }
 .box {
+	margin: -22px 0 0 258px;
+	border-top: 10px solid transparent;
+	border-left: 20px solid white;
+	border-bottom: 10px solid transparent;
 	position: absolute;
 	float: right;
 	width: 0;
 	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 20px solid white;
-	border-bottom: 10px solid transparent;
-	margin: -22px 0 0 258px;
 }
 .text p:nth-child(4) {
 	font-size: 9px;
@@ -84,10 +85,10 @@ header {
 	margin-left: 30px;
 }
 .content_left {
+	margin-right: 60px;
 	width:530px;
 	height:250px;
 	float: left;
-	margin-right: 60px;
 }
 .content_left h2 {
 	color: #006995;
@@ -103,13 +104,13 @@ header {
 	color: #92929C;
 }
 .content_right {
-	width: 260px;
-	height: 200px;
-	background: #E5EEF5;
+	margin-bottom: 50px;
 	padding: 10px;
 	color: #92929C;
 	border-radius: 5px;
-	margin-bottom: 50px;
+	width: 260px;
+	height: 200px;
+	background: #E5EEF5;
 }
 .content_right h2 {
 	color: #006995;
@@ -145,9 +146,9 @@ header {
 	text-decoration: underline;
 }
 .footer {
+	margin-top: 30px;
 	background: #007098;
 	height: 200px;
-	margin-top: 30px;
 }
 .middle {
 	width: 400px;
